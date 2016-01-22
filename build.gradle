@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven'
 
 project.ext {
-	tempVersion="1.8.8.8"
+	tempVersion="1.8.8.7"
 }
 
 repositories {
@@ -46,6 +46,3 @@ task printHello {
 	println "Hello World"
 }
 
-task paramCheck{
-	println "Parameter ="+paramName
-}
